@@ -11,3 +11,7 @@ Create application, that will render the tree and show nodes as list, with outli
 - Library to render and keep track of state: Hyperapp@1.x.x
 - Bundler: Parcel
 - Format: JSX + SCSS
+
+## Run
+
+`npm start` - then application will be available on localhost:1234
