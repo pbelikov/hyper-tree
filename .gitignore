@@ -1,0 +1,37 @@
+/dist/
+e2e_test.*
+node_modules
+
+# IDE files
+/.vscode
+/.cache
+
+# Include when developing application packages.
+pubspec.lock
+.c9
+.idea/
+.settings/
+.vscode/launch.json
+*.swo
+modules/.settings
+modules/.vscode
+
+# Don't check in secret files
+*secret.js
+
+# Ignore npm/yarn debug log
+npm-debug.log
+yarn-error.log
+
+# User specific bazel settings
+.bazelrc.user
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

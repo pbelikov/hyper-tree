@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import './sidebar/sidebar.scss';
+@import 'item-list/item-list';
+@import './search/search.scss';
+@import 'tree/tree';
+
+.hyper-tree {
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+
+  &__diagram {
+    flex-grow: 2;
+  }
+
+  &__sidebar {
+    flex-grow: 1;
+  }
+}
